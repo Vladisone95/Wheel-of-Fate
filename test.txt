@@ -1,0 +1,44 @@
+Full Stack Software Developer Task
+
+
+
+Summary
+
+Design and build the “Support Wheel of Fate”
+
+Background
+
+At one of our companies, all engineers take turns to support the business for half a day at a time. This is affectionately known as BAU.
+Currently, there is no tool which decides who is doing BAU and when, all rotas are created and maintained by hand.
+
+Task
+
+Your task is to design and build an online “Support Wheel of Fate”. This should select two engineers at random to both complete a half day of support each. For the purposes of this task, you are free to assume that we have 10 engineers.
+
+Business Rules
+
+There are some rules and these are liable to change in the future:
+An engineer can work at most a half day shift in a day.
+Each engineer should have completed one whole day of support in any 2 week period (ignore weekends).
+An engineer cannot have half day shifts on consecutive days.
+
+Deliverables
+
+At the end of the task, the following must be included:
+A Presentation Layer (ReactJs/React Native)
+An API (NodeJs) 
+
+It is also important that you document your decisions as you will be expected to talk through your approach.
+
+Rules
+
+1. You have 3 days to complete the task from the moment it is sent to you.
+2. Send it back to us via Git (GitHub, GitLab etc).
+3. You are free to use the internet for research, inspiration and help.
+
+Bonus
+
+Deploy the solution on a server (netlify, heroku, aws…)
+We love unit tests 
+Show off your skills
+

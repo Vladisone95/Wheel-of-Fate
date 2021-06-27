@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  adonis-mysql:
+    image: mysql:5.7.22
+    container_name: adonis-mysql
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "4307:3306"
+    environment:
+      MYSQL_DATABASE: adonis
+      MYSQL_USER: adonis
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: secret
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
